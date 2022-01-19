@@ -1,0 +1,133 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  creationTimestamp: 2022-01-18T18:52:05Z
+  name: landingmap
+  namespace: devops-training
+  resourceVersion: "516"
+  uid: b4952dc3-d670-11e5-8cd0-68f728db1985
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- Styles sheet for general and for screens above 3840px -->
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- Styles sheet for screens below 2880px -->
+    <link rel="stylesheet" href="./css/styles-2880.css">
+
+    <!-- Styles sheet for screens below 2560px -->
+    <link rel="stylesheet" href="./css/styles-2560.css">
+
+    <!-- Styles sheet for screens below 1920px -->
+    <link rel="stylesheet" href="./css/styles-1920.css">
+
+    <!--Styles sheet for screens above 1440px -->
+    <link rel="stylesheet" href="./css/styles-1440.css">
+
+    <!-- Styles sheet for screens above 1366px -->
+    <link rel="stylesheet" href="./css/styles-1366.css">
+
+    <link href="png/gsb-favIcon.ico" rel="icon" type="image/x-icon" />
+    <title>Digital Network oss</title>
+    </head>
+
+    <body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="-col-md-12">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="content">
+                        <img class="img-fluid cog-wheel-bg-image" src="./png/cogwheel@2x.png" alt="">
+
+                        <a href="" target="_blank" title="OSS APM">
+                            <img class="img-fluid icon-image oss-apm" src="png/dotted-border/img-ossapm.png" alt="">
+                        </a>
+
+                        <a href="https://gsbprdappl01oam.networks.au.singtelgroup.net/nifi" target="_blank"
+                            title="Nifi">
+                            <img class="img-fluid icon-image ni-fi" src="png/dotted-border/img-nifi.png" alt="">
+                        </a>
+
+                        <a href="https://172.24.7.30/" target="_blank" title="Rancher">
+                            <img class="img-fluid icon-image rancher" src="png/dotted-border/img-rancher.png" alt="">
+                        </a>
+
+                        <a href="https://172.24.6.30/#/" target="_blank" title="Zeppelin">
+                            <img class="img-fluid icon-image zepplin" src="png/dotted-border/img-zepplin.png" alt="">
+                        </a>
+
+                        <a href="https://saiprdappl010oam.networks.au.singtelgroup.net/" target="_blank" title="Spark">
+                            <img class="img-fluid icon-image spark" src="png/dotted-border/img-spark.png" alt="">
+                        </a>
+
+                        <a href="https://gsbprdappl02oam.networks.au.singtelgroup.net/gsb-portal" target="_blank"
+                            title="GSB UI">
+                            <img class="img-fluid icon-image gsb-ui" src="png/dotted-border/img-ossgsb.png" alt="">
+                        </a>
+
+                        <a href="https://172.24.7.32/login/" target="_blank" title="Supserset">
+                            <img class="img-fluid icon-image superset" src="png/dotted-border/img-superset.png" alt="">
+                        </a>
+
+                        <a href="https://gsbprdappl04oam.networks.au.singtelgroup.net/" target="_blank"
+                            title="Air Flow">
+                            <img class="img-fluid icon-image air-flow" src="png/dotted-border/img-airflow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-left">
+                    <ul>
+                        <li><a href="" target="_blank">Knowledge Base</a></li>
+                        <li><a href="" target="_blank">Raise Support Case</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-center">
+                    <p>Supported by</p>
+                    <img src="./png/optus-oss-without-Supported-text.png" alt="">
+                    <a href="">Click here to engage us</a>
+                </div>
+                <div class="col-md-3 col-right">
+                    <ul>
+                        <li><a href="https://gsbprdappl05oam.networks.au.singtelgroup.net/console"
+                                target="_blank">Wildfly</a></li>
+                        <li><a href="https://gsbprdappl07oam.networks.au.singtelgroup.net/" target="_blank">HDFS</a>
+                        </li>
+                        <li><a href="" target="_blank">Trino</a></li>
+                        <li><a href="http://localhost:31979/browser/" target="_blank">PgAdmin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </body>
+
+    </html> 
